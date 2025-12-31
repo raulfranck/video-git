@@ -30,6 +30,9 @@ function buscaBinaria(array, alvo) {
 // Exemplo de uso com array de 100 posições
 const array100 = Array.from({ length: 100 }, (_, i) => i + 1); // [1, 2, 3, ..., 100]
 
+
+console.log("Hello World");console.log("Hello World");console.log("Hello World");
+
 // Testando a busca
 console.log("Buscando 42:", buscaBinaria(array100, 42));   // Retorna 41 (índice)
 console.log("Buscando 1:", buscaBinaria(array100, 1));     // Retorna 0 (índice)
