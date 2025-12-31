@@ -7,9 +7,6 @@ console.log("Melhorando o layout");
  * @returns {number} - Índice do elemento encontrado ou -1 se não encontrado
  */
 function buscaBinaria(array, alvo) {
-  let esquerda = 0;
-  let direita = array.length - 1;
-
   while (esquerda <= direita) {
     const meio = Math.floor((esquerda + direita) / 2);
 
