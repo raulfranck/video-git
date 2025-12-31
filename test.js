@@ -1,7 +1,5 @@
 console.log("Hello World");
-console.log("Hello World");
-console.log("Hello World");
-console.log("Hello World"); 
+
 
 /**
  * Busca Binária em um array ordenado
