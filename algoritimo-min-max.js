@@ -28,6 +28,8 @@ function buscarMinMax(array) {
   return { min, max, indiceMin, indiceMax };
 }
 
+console.log("Hello World");
+
 // Gerando array de 100 posições com valores aleatórios entre 1 e 1000
 const array100 = Array.from({ length: 100 }, () => Math.floor(Math.random() * 1000) + 1);
 
