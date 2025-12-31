@@ -1,9 +1,4 @@
-/**
- * Algoritmo Min-Max
- * Encontra o valor mínimo e máximo em um array de 100 posições
- * @param {number[]} array - Array com 100 elementos
- * @returns {{ min: number, max: number, indiceMin: number, indiceMax: number }}
- */
+
 function buscarMinMax(array) {
   if (array.length === 0) {
     return null;
@@ -28,7 +23,7 @@ function buscarMinMax(array) {
   return { min, max, indiceMin, indiceMax };
 }
 
-// Gerando array de 100 posições com valores aleatórios entre 1 e 1000
+
 const array100 = Array.from({ length: 100 }, () => Math.floor(Math.random() * 1000) + 1);
 
 console.log("Array gerado:", array100);
