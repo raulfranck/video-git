@@ -1,5 +1,4 @@
-console.log("Hello World");
-
+console.log("Melhorando o layout");
 
 /**
  * Busca Binária em um array ordenado
